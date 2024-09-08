@@ -1,0 +1,13 @@
+dbt_banxware_assignment:
+  outputs:
+    dev:
+      type: snowflake
+      threads: 4
+      account: xojedon-yj23185
+      database: home_assignment
+      user: anil77777
+      password: "MANUvinni77@"
+      schema: sales_schema
+      warehouse: compute_wh
+      role: ACCOUNTADMIN
+  target: dev
